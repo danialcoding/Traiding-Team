@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'arial';
+    src: url('../../fonts/Ariel\ Script.ttf') format('true type');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+.news_container {
+    width: 100%;
+    min-height: 100vh !important;
+    background: rgb(23,23,26);
+}
+
+
+.news .news-div-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+.news .news-div-title > a {
+    color: #2278fb;
+    float: right;
+    text-decoration: none;
+}
+.news .news-div-title > a svg {
+    margin-left: -2px;
+}
+.news .news-div-title > a:hover{
+    color: #0364F1;
+    transition: all 0.1s ease-in-out;
+}
+.news .news-div-title span {
+    color: rgb(255, 255, 255);
+    float: left;
+    font-size: 23px;
+}
+.news .news-div-title span a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.news .news-div-title span a:hover {
+    color: #ddd;
+    transition: all 0.1s ease-in-out;
+}
+.news .news-div {
+    /* padding: 0 35px; */
+    display: block;
+    /* justify-content: center; */
+    padding-bottom: 30px;
+}
+.news .news-div .news-carousel {
+    width: 80% !important;
+}
+.news .news-div .news {
+
+}
+.news .news-div .cvyJEp , .news .news-div .dkjKVr {
+    visibility: hidden !important;
+}
+.news .news-div .ereApb {
+    /* normal */
+    box-sizing: border-box;
+    padding: 0px;
+    transition: all 250ms ease 0s;
+    border: none;
+    margin: 5px;
+    background-color: transparent;
+    font-size: 1.3em;
+    content: "";
+    height: 10px;
+    width: 10px;
+    box-shadow: #2c3261 0px 0px 1px 2px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.news .news-div .cqQwrw {
+    /* active */
+    box-sizing: border-box;
+    padding: 0px;
+    transition: all 250ms ease 0s;
+    border: none;
+    margin: 5px;
+    background-color: rgb(30, 31, 42) !important;
+    font-size: 1.3em;
+    content: "";
+    height: 10px;
+    width: 10px;
+    box-shadow: #0364F1 0px 0px 1px 3px !important;
+    border-radius: 50%;
+    outline: none;
+}

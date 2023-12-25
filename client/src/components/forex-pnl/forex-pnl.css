@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'arial';
+    src: url('../../fonts/Ariel\ Script.ttf') format('true type');
+}
+*{
+    /* padding: 0;
+    margin: 0; */
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+.forex-link-tag {
+    text-decoration: none !important;
+}
+.forex {
+
+}
+.forex a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.forex td {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.forex :last-child {
+    text-align: right;
+}
+.forex .forex-img-box {
+    display: block;
+    position: relative;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+}
+.forex .forex-img1 {
+    border-radius: 50%;
+    width: 28px;
+    margin-left: 8px;
+    margin-right: -30px;
+    position: absolute;
+    top: -25%;
+    left: 50%;
+}
+.forex .forex-img2 {
+    border-radius: 50%;
+    width: 28px;
+    margin-left: 8px;
+    margin-right: -30px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+.forex .number {
+    color: rgb(255, 255, 255);
+}
+.forex .forexname {
+    /* display: inline; */
+    color: rgb(255, 255, 255);
+    /* margin-right: 30px; */
+    font-size: 18px;
+}
+.forex .forexpnl span{
+    /* display: inline; */
+    font-size: 18px;
+}
+.forex .view-button {
+    background: #3a3a3a;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 3px;
+    border: 1px solid #3c3c3c;
+}
+.forex .view-button:hover {
+    background: #303030;
+    border: 1px solid #373737;
+    transition: all 0.1s ease-in-out;
+}

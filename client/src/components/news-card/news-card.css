@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'arial';
+    src: url('../../fonts/Ariel\ Script.ttf') format('true type');
+}
+*{
+    /* padding: 0;
+    margin: 0; */
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+.NewsCard {
+    min-width: 250px;
+    /* width: 22% !important; */
+    max-width: 250px !important;
+    
+    color: rgb(255, 255, 255);
+
+    height:320px;
+
+    padding: 10px 15px 10px 15px;
+
+    border-radius: 8px;
+
+    background: rgb(41, 43, 57);
+}
+.NewsCard a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.NewsCard .newsImage {
+    width: 220px;
+    height: 125px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+}
+.NewsCard .newsInfo {
+    /*  */
+    /* display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+    align-items: start;
+    flex-direction: column; */
+    height: 170px !important;
+    position: relative;
+    margin-top: 8px;
+}
+.NewsCard .newsInfo .topic {
+    width: 100%;
+    display: block;
+    float: left;
+    font-size: 17px;
+    overflow: hidden;
+}
+.NewsCard .newsInfo .topic:hover {
+    color: #ddd;
+    transition: all 0.2s ease-in-out;
+}
+.NewsCard .newsInfo .info {
+    width: 100%;
+    max-height: 110px;
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #ddd;
+    overflow-y: auto;
+}
+.NewsCard .newsInfo ::-webkit-scrollbar {
+    width: 6px !important;
+}
+.NewsCard .newsInfo ::-webkit-scrollbar-track {
+    background: rgb(30, 31, 42) !important;
+  }
+  .NewsCard .newsInfo ::-webkit-scrollbar-thumb {
+    background: #2c3261 !important;
+    border-radius: 25px !important;
+}
+.NewsCard .newsInfo ::-webkit-scrollbar-thumb:hover {
+    background: #0364F1 !important;
+    transition: all 0.2s ease-in-out !important;
+}
+.NewsCard .newsInfo .time {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    color: #ddd;
+}
+.NewsCard .newsInfo .date {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    color: #ddd;
+}

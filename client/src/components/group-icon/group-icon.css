@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'arial';
+    src: url('../../fonts/Ariel\ Script.ttf') format('true type');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+.group-icon {
+    background-color: #535c68;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    margin: 5px 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.group-icon:hover {
+    background: #2f3640;
+    border-radius: 7px;
+    transition: all 0.5s ease-in-out;
+}
+.group-icon .group-avatar {
+    color: rgb(255, 255, 255) !important;
+    font-size: 28px;
+    cursor: pointer;
+}
+.group-icon-img {
+    background-color: #535c68;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px !important;
+    margin: 5px 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.group-icon-img:hover > .group-image {
+    background: #0351c7;
+    border-radius: 7px !important;
+    transition: all 0.5s ease-in-out;
+}
+.group-icon-img .group-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+}

@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'arial';
+    src: url('../../fonts/Ariel\ Script.ttf') format('true type');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+.footer {
+    width: 100%;
+    min-height: 300px !important;
+    max-height: 700px;
+    background: #222530;
+    background: linear-gradient(330deg, #141414, #25262c);
+    box-shadow: rgba(88, 102, 126, 0.08) 0px 4px 24px, rgba(88, 102, 126, 0.12) 0px 1px 2px;
+    padding: 45px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .right {
+    display: flex;
+    justify-content: center;
+    min-width: 302px !important;
+}
+.footer .left {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.footer .left .footerLogo {
+    margin-right: 100px;
+}
+.footer .left .footerLogo span {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+
+
+.footer .left .footerMenu {
+    margin-right: 150px;
+}
+.footer .left .footerMenu span {
+    margin-bottom: 6px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footer .left .footerMenu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footer .left .footerMenu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer .left .footerMenu li {
+    margin: 0 0 0 3px;
+    list-style: none;
+}
+.footer .left .footerMenu li a:hover {
+    color: #ddd;
+    padding: 0 0 0 5px;
+    transition: all 0.2s ease-in-out !important;
+}
+
+
+.footer .left .exchangeMenu {
+
+}
+.footer .left .exchangeMenu span {
+    margin-bottom: 6px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footer .left .exchangeMenu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footer .left .exchangeMenu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer .left .exchangeMenu li {
+    margin: 0 0 0 3px;
+    list-style: none;
+}
+.footer .left .exchangeMenu li a:hover {
+    color: #ddd;
+    padding: 0 0 0 5px;
+    transition: all 0.2s ease-in-out !important;
+}
+
+
+.footer .left .teamMenu {
+    margin-right: 150px;
+}
+.footer .left .teamMenu span {
+    margin-bottom: 6px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footer .left .teamMenu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footer .left .teamMenu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer .left .teamMenu li {
+    margin: 0 0 0 3px;
+    list-style: none;
+}
+.footer .left .teamMenu li a:hover {
+    color: #ddd;
+    padding: 0 0 0 5px;
+    transition: all 0.2s ease-in-out !important;
+}
+
+
+
+
+.footer .right p {
+    color: #ddd;
+    margin-bottom: 8px;
+}
+.footer .right .form .email_div {
+    margin: 15px auto 0px;
+    display: block;
+}
+.footer .right .form .email_div input {
+    padding: 8px 20px 8px 35px;
+    width: 210px;
+    color: white;
+    background: rgba( 0, 0, 0, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 7px 0 0 7px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.footer .right .form .email_div input::placeholder {
+    color: white;
+}
+.footer .right .form .email_div input:focus {
+    outline: 1px solid #0364F1;
+}
+.footer .right .form .email_div label {
+    text-align: left;
+    display: block;
+    color: white;
+    font-size: 15px;
+}
+.footer .right .form .email_div .email-inp {
+    position: relative;
+    display: inline-block;
+}
+
+.footer .right .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: white;
+    font-size: 19px;
+    padding: 5px;
+    position: absolute;
+    box-sizing:border-box;
+    top: 1%;
+    left:5px;
+}
+.footer .right .form .submit {
+    background-color: #0364F1;
+    border: none;
+    color: white;
+    width: 90px;
+    height: 42px;
+    border-radius: 0 7px 7px 0;
+    margin-left: 2px;
+}
+.footer .right .form .submit:hover {
+    background-color: #02398b;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+.footer .right .form .error {
+    color: #d40229;
+    font-size: 14px;
+    font-weight: 2px;
+    margin: 5px 0px 0px 0;
+}

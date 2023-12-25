@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'arial';
+    src: url('../../fonts/Ariel\ Script.ttf') format('true type');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+.privatechaticon {
+    background-color: rgb(64,66,73);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 55px;
+    margin: 8px 10px;
+    position: relative;
+}
+.privatechaticon:hover {
+    background: #34373b;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+}
+.privatechaticon .pv-bg {
+    flex: 21%;
+}
+.privatechaticon .pv-bg .avatar-bg {
+    background-color: #535c68;
+    padding: 10px 9px;
+    border-radius: 50%;
+    display: inline;
+}
+.privatechaticon .pv-bg .pv-avatar {
+    color: rgb(255, 255, 255) !important;
+    font-size: 21px;
+    cursor: pointer;
+}
+.privatechaticon .pv-icon-bg {
+    flex: 21%;
+}
+.privatechaticon .pv-icon-bg .pv-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+}
+.privatechaticon .online-status {
+    position: absolute;
+    left: 16%;
+    bottom: 14%;
+    font-size: 14px;
+    color: #009b0b;
+    background-color: #313338;
+    border-radius: 50%;
+}
+.privatechaticon .offline-status {
+    position: absolute;
+    left: 16%;
+    bottom: 14%;
+    font-size: 15px;
+    background-color: #313338;
+    border-radius: 50%;
+}
+.privatechaticon .username {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    flex: 64%;
+}
+.privatechaticon:hover > .username {
+    color: #999b9e;
+    transition: all 0.3s ease-in-out;
+}
+.privatechaticon .removeicon {
+    flex: 10%;
+}
+.privatechaticon .removeicon .removefriend {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.privatechaticon .removeicon .removefriend:hover {
+    color: #999b9e;
+    transition: all 0.3s ease-in-out;
+}

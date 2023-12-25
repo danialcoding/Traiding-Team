@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'arial';
+    src: url('../../fonts/Ariel\ Script.ttf') format('true type');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+.chat-container {
+    width: 100%;
+    min-height: 100vh !important;
+    background: rgb(23,23,26);
+    display: flex;
+}
+/* left side */
+
+.chat-container .leftSide {
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+}
+.chat-container .leftSide .groups-side {
+    width: 75px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    background-color: #1E1F22;
+}
+.chat-container .leftSide .groups-side .directMessages {
+    background-color: #0364F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.chat-container .leftSide .groups-side .directMessages:hover {
+    background: #0351c7;
+    transition: all 0.5s ease-in-out;
+}
+.chat-container .leftSide .groups-side .directMessages .dir-msg-button {
+    color: rgb(255, 255, 255) !important;
+    font-size: 28px;
+    cursor: pointer;
+}
+.chat-container .leftSide .groups-side .groups {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    overflow-y: auto;
+}
+.chat-container .leftSide .groups::-webkit-scrollbar {
+    width: 6px !important;
+    display: none;
+}
+.chat-container .leftSide .groups::-webkit-scrollbar-track {
+    background: rgb(30, 31, 42) !important;
+}
+.chat-container .leftSide .groups::-webkit-scrollbar-thumb {
+    background: #2c3261 !important;
+    border-radius: 25px !important;
+}
+.chat-container .leftSide .groups::-webkit-scrollbar-thumb:hover {
+    background: #0364F1 !important;
+    transition: all 0.1s ease-in-out;
+}
+.chat-container .leftSide .group-info-side {
+    width: 75%;
+    background-color: #2B2D31;
+    width: 250px;
+    height: 100vh;
+}
+.chat-container .leftSide .group-info-side .friends {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    height: 45px;
+    margin: 10px 12px;
+    padding: 12px;
+    border-radius: 6px;
+}
+.chat-container .leftSide .group-info-side .friends:hover {
+    background-color: #34373b;
+}
+.chat-container .leftSide .group-info-side .friends .friendsavatar {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+.chat-container .leftSide .group-info-side .friends .friendstitle {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-left: 7px;
+}
+.chat-container .leftSide .group-info-side .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0px 20px 12px 20px;
+}
+.chat-container .leftSide .group-info-side .top .directMessageTitle {
+    color: #898b8b;
+    cursor: pointer;
+}
+.chat-container .leftSide .group-info-side .top .addFriendsIcon {
+    color: #898b8b;
+    cursor: pointer;
+    font-size: 20px;
+}
+.chat-container .leftSide .group-info-side .top:hover > div .addFriendsIcon {
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease-in-out;
+}
+.chat-container .leftSide .group-info-side .top:hover > .directMessageTitle {
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease-in-out;
+}
